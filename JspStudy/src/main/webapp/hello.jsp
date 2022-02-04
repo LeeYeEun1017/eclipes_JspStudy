@@ -15,6 +15,7 @@
 	out.println("<h1>"+str+"</h1>"); //웹에 출력
 	// =document.write ("str > "+str); > web(브라우져)에서 출력 = 자바스크립트(frontend)
 %>
-
+<hr>
+str의 값을 출력= <%=str %>
 </body>
 </html>
