@@ -9,12 +9,14 @@
 <body>
 <% 
 //  % : Scriptlet(스크립트릿 > 자바 코드를 사용 할 수 있도록 만들어 주는 영역)
-	String str="홍길동";
+	String str="test";
 	// JS=documnet.write("str= "+str);
 	System.out.println("str= "+str); // =sysout > 자바(backend) 
 	out.println("<h1>"+"str= "+str+"</h1>"); //웹에 출력
 	// =document.write ("str > "+str); > web(브라우져)에서 출력 = 자바스크립트(frontend)
 %>
-<%=str %>
+<hr>
+str의 값을 출력= <%=str %>
+
 </body>
 </html>
